@@ -1,19 +1,18 @@
 <div class="main-content">
     <section class="section">
+    <div class="section-header">
+            <h1>Tambah Kategori</h1>
+            <div class="section-header-breadcrumb">
+              <div class="section-header-button">
+              <a href="dashboard.php?module=kategori" class="btn btn-success"><i class="fas fa-chevron-left"></i> Kembali ke data kategori </a>
+            </div>
+            </div>
+          </div>
 
       <div class="row">
         <div class="col-12">
           <div class="card">
-            <div class="card-header">
-              <h4>Tambah kategori</h4>
-              <div class="card-header-action">
-              </div>
-              &nbsp;
-              &nbsp;
-              <div class="card-header-action">
-                <a href="dashboard.php?module=kategori" class="btn btn-success">Kembali ke data kategori <i class="fas fa-chevron-left"></i></a>
-              </div>
-            </div>
+            
             <div class="card">
               <div class="card-body">
               <form action='module/kategori/aksi_simpan.php' method="post">

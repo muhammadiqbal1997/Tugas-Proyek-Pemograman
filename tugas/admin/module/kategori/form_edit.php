@@ -1,18 +1,18 @@
 <div class="main-content">
         <section class="section">
+        <div class="section-header">
+            <h1>Edit Kategori</h1>
+            <div class="section-header-breadcrumb">
+            <div class="section-header-button">
+              <a href="dashboard.php?module=kategori" class="btn btn-success"><i class="fas fa-chevron-left"></i> Kembali ke data kategori </a>
+            </div>
+            </div>
+          </div>
 
           <div class="row">
             <div class="col-12">
               <div class="card">
-                <div class="card-header">
-                  <h4>Edit kategori</h4>
-                  <div class="card-header-action">
-                  </div>
-                  &nbsp;
-                  &nbsp;
-                  <div class="card-header-action">
-                  </div>
-                </div>
+                
                 <?php
                     include "../lib/koneksi.php";
                     $id_kategori=$_GET['id'];

@@ -1,19 +1,18 @@
 <div class="main-content">
     <section class="section">
+    <div class="section-header">
+            <h1>Tambah Produk</h1>
+            <div class="section-header-breadcrumb">
+              <div class="section-header-button">
+              <a href="dashboard.php?module=produk" class="btn btn-success"><i class="fas fa-chevron-left"></i> Kembali Ke data Produk</a>
+            </div>
+            </div>
+          </div>
 
       <div class="row">
         <div class="col-12">
           <div class="card">
-            <div class="card-header">
-              <h4>Tambah Produk</h4>
-              <div class="card-header-action">
-              </div>
-              &nbsp;
-              &nbsp;
-              <div class="card-header-action">
-                <a href="dashboard.php?module=produk" class="btn btn-success">Kembali ke data Produk <i class="fas fa-chevron-left"></i></a>
-              </div>
-            </div>
+            
             <div class="card">
               <div class="card-body">
               <form action='module/produk/aksi_simpan.php' method="post" enctype="multipart/form-data">
@@ -45,7 +44,7 @@
                 </div>
                 <div class="form-group">
                   <b><label>Gambar Produk</label></b>
-                  <input type = "file" class="form-control" name="foto">
+                  <input type = "file" class="form-control" name="gambar">
                 </div>
                 <div class="form-group">
                     <b><label>Deskripsi Produk</label></b>

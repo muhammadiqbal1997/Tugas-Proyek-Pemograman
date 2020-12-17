@@ -2,19 +2,17 @@
 <div class="main-content">
         <section class="section">
 
+        <div class="section-header">
+            <h1>Menu Kurir</h1>
+            <div class="section-header-breadcrumb">
+            <a href="dashboard.php?module=tambah_kurir" class="btn btn-success">Tambah Kurir <i class="fas fa-plus"></i></a>
+            </div>
+          </div>
+
           <div class="row">
             <div class="col-12">
               <div class="card">
-                <div class="card-header">
-                  <h4>Menu Kurir</h4>
-                  <div class="card-header-action">
-                  </div>
-                  &nbsp;
-                  &nbsp;
-                  <div class="card-header-action">
-                    <a href="dashboard.php?module=tambah_kurir" class="btn btn-success">Tambah Kurir <i class="fas fa-plus"></i></a>
-                  </div>
-                </div>
+                
                 <div class="card-body p-0">
                   <div class="table-responsive table-invoice">
                   <?php 

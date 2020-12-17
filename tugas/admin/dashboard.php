@@ -1,6 +1,10 @@
 <?php 
 session_start();
 include "lib/koneksi.php";
+if (empty($_SESSION['username']) AND empty($_SESSION['password'])) {
+	echo "<center>Untuk mengakses modul, Anda harus login <br>";
+	echo "<a href=$adminUrl><b>LOGIN</b></a></center>";
+}else {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -391,3 +395,4 @@ include "lib/koneksi.php";
   <script src="<?php echo $adminUrl; ?>assets/js/page/modal-tambah-kategori.js"></script>
 </body>
 </html>
+<?php } ?>

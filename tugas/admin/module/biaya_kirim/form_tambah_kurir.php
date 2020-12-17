@@ -1,19 +1,17 @@
 <div class="main-content">
     <section class="section">
 
+    <div class="section-header">
+            <h1>Menu Kurir</h1>
+            <div class="section-header-breadcrumb">
+            <a href="dashboard.php?module=kurir" class="btn btn-success"><i class="fas fa-chevron-left"></i> Kembali ke data kurir </a>
+            </div>
+          </div>
+
       <div class="row">
         <div class="col-12">
           <div class="card">
-            <div class="card-header">
-              <h4>Tambah Nama Kurir</h4>
-              <div class="card-header-action">
-              </div>
-              &nbsp;
-              &nbsp;
-              <div class="card-header-action">
-                <a href="dashboard.php?module=kurir" class="btn btn-success">Kembali ke data kurir <i class="fas fa-chevron-left"></i></a>
-              </div>
-            </div>
+            
             <div class="card">
               <div class="card-body">
               <form action='module/biaya_kirim/aksi_simpan_kurir.php' method="post">

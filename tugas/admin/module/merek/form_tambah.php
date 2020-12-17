@@ -1,19 +1,18 @@
 <div class="main-content">
     <section class="section">
+    <div class="section-header">
+            <h1>Menu Merek</h1>
+            <div class="section-header-breadcrumb">
+              <div class="section-header-button">
+              <a href="dashboard.php?module=merek" class="btn btn-success"><i class="fas fa-chevron-left"></i> Kembali Ke data Merek</a>
+            </div>
+            </div>
+          </div>
 
       <div class="row">
         <div class="col-12">
           <div class="card">
-            <div class="card-header">
-              <h4>Tambah merek</h4>
-              <div class="card-header-action">
-              </div>
-              &nbsp;
-              &nbsp;
-              <div class="card-header-action">
-                <a href="dashboard.php?module=merek" class="btn btn-success">Kembali ke data merek <i class="fas fa-chevron-left"></i></a>
-              </div>
-            </div>
+            
             <div class="card">
               <div class="card-body">
               <form action='module/merek/aksi_simpan.php' method="post">
