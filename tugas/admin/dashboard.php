@@ -24,8 +24,8 @@ if (empty($_SESSION['username']) AND empty($_SESSION['password'])) {
   <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
 
   <!-- Template CSS -->
-  <link rel="stylesheet" href="<?php echo $adminUrl; ?>assets/css/style.css">
-  <link rel="stylesheet" href="<?php echo $adminUrl; ?>assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
   </head>
 
   <body>
@@ -63,19 +63,19 @@ if (empty($_SESSION['username']) AND empty($_SESSION['password'])) {
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="mr-3 rounded" width="30" src="<?php echo $adminUrl; ?>assets/img/products/product-3-50.png" alt="product">
+                  <img class="mr-3 rounded" width="30" src="assets/img/products/product-3-50.png" alt="product">
                   oPhone S9 Limited Edition
                 </a>
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="mr-3 rounded" width="30" src="<?php echo $adminUrl; ?>assets/img/products/product-2-50.png" alt="product">
+                  <img class="mr-3 rounded" width="30" src="assets/img/products/product-2-50.png" alt="product">
                   Drone X2 New Gen-7
                 </a>
               </div>
               <div class="search-item">
                 <a href="#">
-                  <img class="mr-3 rounded" width="30" src="<?php echo $adminUrl; ?>assets/img/products/product-1-50.png" alt="product">
+                  <img class="mr-3 rounded" width="30" src="assets/img/products/product-1-50.png" alt="product">
                   Headphone Blitz
                 </a>
               </div>
@@ -112,7 +112,7 @@ if (empty($_SESSION['username']) AND empty($_SESSION['password'])) {
               <div class="dropdown-list-content dropdown-list-message">
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="<?php echo $adminUrl; ?>assets/img/avatar/avatar-1.png" class="rounded-circle">
+                    <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle">
                     <div class="is-online"></div>
                   </div>
                   <div class="dropdown-item-desc">
@@ -123,7 +123,7 @@ if (empty($_SESSION['username']) AND empty($_SESSION['password'])) {
                 </a>
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="<?php echo $adminUrl; ?>assets/img/avatar/avatar-2.png" class="rounded-circle">
+                    <img alt="image" src="assets/img/avatar/avatar-2.png" class="rounded-circle">
                   </div>
                   <div class="dropdown-item-desc">
                     <b>Dedik Sugiharto</b>
@@ -133,7 +133,7 @@ if (empty($_SESSION['username']) AND empty($_SESSION['password'])) {
                 </a>
                 <a href="#" class="dropdown-item dropdown-item-unread">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="<?php echo $adminUrl; ?>assets/img/avatar/avatar-3.png" class="rounded-circle">
+                    <img alt="image" src="assets/img/avatar/avatar-3.png" class="rounded-circle">
                     <div class="is-online"></div>
                   </div>
                   <div class="dropdown-item-desc">
@@ -144,7 +144,7 @@ if (empty($_SESSION['username']) AND empty($_SESSION['password'])) {
                 </a>
                 <a href="#" class="dropdown-item">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="<?php echo $adminUrl; ?>assets/img/avatar/avatar-4.png" class="rounded-circle">
+                    <img alt="image" src="assets/img/avatar/avatar-4.png" class="rounded-circle">
                   </div>
                   <div class="dropdown-item-desc">
                     <b>Ardian Rahardiansyah</b>
@@ -154,7 +154,7 @@ if (empty($_SESSION['username']) AND empty($_SESSION['password'])) {
                 </a>
                 <a href="#" class="dropdown-item">
                   <div class="dropdown-item-avatar">
-                    <img alt="image" src="<?php echo $adminUrl; ?>assets/img/avatar/avatar-5.png" class="rounded-circle">
+                    <img alt="image" src="assets/img/avatar/avatar-5.png" class="rounded-circle">
                   </div>
                   <div class="dropdown-item-desc">
                     <b>Alfa Zulkarnain</b>
@@ -228,7 +228,7 @@ if (empty($_SESSION['username']) AND empty($_SESSION['password'])) {
             </div>
           </li>
           <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-            <img alt="image" src="<?php echo $adminUrl; ?>assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
+            <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
             <div class="d-sm-none d-lg-inline-block">Hi, Ujang Maman</div></a>
             <div class="dropdown-menu dropdown-menu-right">
               <div class="dropdown-title">Logged in 5 min ago</div>
@@ -376,7 +376,7 @@ if (empty($_SESSION['username']) AND empty($_SESSION['password'])) {
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <script src="<?php echo $adminUrl; ?>assets/js/stisla.js"></script>
+  <script src="assets/js/stisla.js"></script>
 
   <!-- JS Libraies -->
   <script src="../node_modules/jquery-sparkline/jquery.sparkline.min.js"></script>
@@ -386,13 +386,13 @@ if (empty($_SESSION['username']) AND empty($_SESSION['password'])) {
   <script src="../node_modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
 
   <!-- Template JS File -->
-  <script src="<?php echo $adminUrl; ?>assets/js/scripts.js"></script>
-  <script src="<?php echo $adminUrl; ?>assets/js/custom.js"></script>
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/custom.js"></script>
 
   <!-- Page Specific JS File -->
-  <script src="<?php echo $adminUrl; ?>assets/js/page/index.js"></script>
-  <script src="<?php echo $adminUrl; ?>assets/js/page/bootstrap-modal.js"></script>
-  <script src="<?php echo $adminUrl; ?>assets/js/page/modal-tambah-kategori.js"></script>
+  <script src="assets/js/page/index.js"></script>
+  <script src="assets/js/page/bootstrap-modal.js"></script>
+  <script src="assets/js/page/modal-tambah-kategori.js"></script>
 </body>
 </html>
 <?php } ?>
